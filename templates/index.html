@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medicine Recommendation System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #3f51b5;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .symptoms {
+        margin-bottom: 20px;
+      }
+
+      .symptom {
+        padding: 10px;
+        background-color: #e8eaf6;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+
+      .form-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .btn {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .btn:hover {
+        background-color: #303f9f;
+      }
+
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      .table th {
+        background-color: #3f51b5;
+        color: white;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      .modal-content {
+        background-color: white;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 8px;
+      }
+
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .nav {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav a {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .nav a:hover {
+        background-color: #303f9f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header" style="margin-bottom:10px">
+      <div class="nav">
+        <a href="/">Home</a>
+        <a href="/diseases">Diseases</a>
+        <a href="/diets">Diets</a>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact Us</a>
+        <a href="/blog">Blog</a>
+      </div>
+    </div>
+    <div class="header">
+     Health Recommendation System
+    </div>
+    <div class="container">
+      <div class="symptoms">
+        <h2>Common Symptoms</h2>
+        <div class="symptom">
+          <strong>Disease:</strong> Impetigo<br>
+          <strong>Description:</strong> Impetigo is a highly contagious skin infection causing red sores that can break open.<br>
+          <strong>Precaution:</strong> Soak affected area in warm water, use antibiotics, remove scabs with wet compressed cloth, consult doctor.<br>
+          <strong>Medication:</strong> Topical antibiotics, oral antibiotics, antiseptics, warm compresses.<br>
+          <strong>Workout:</strong> Maintain good hygiene, stay hydrated, consume nutrient-rich foods, avoid scratching.<br>
+          <strong>Diet:</strong> Impetigo diet, antibiotic treatment, fruits and vegetables, hydration.
+        </div>
+        <!-- Add more symptom blocks as needed -->
+      </div>
+
+      <div class="form-container">
+        <h2>Find Your Symptoms</h2>
+        <form action="/predict" method="post">
+          <div class="form-group">
+            <label for="symptoms">Type Symptoms</label>
+            <input type="text" id="symptoms" name="symptoms" placeholder="Use symptoms like itching, vomiting, coughing">
+          </div>
+          <button type="submit" class="btn">Get Recommendation</button>
+        </form>
+      </div>
+
+      {% if predicted_disease %}
+      <div class="result-container">
+        <h2>Our AI Doc Results</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Disease</td>
+              <td>{{ predicted_disease }}</td>
+            </tr>
+            <tr>
+              <td>Description</td>
+              <td>{{ dis_des }}</td>
+            </tr>
+            <tr>
+              <td>Precaution</td>
+              <td>
+                <ul>
+                  {% for i in dis_pre %}
+                    <li>{{ i }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Medications</td>
+              <td>
+                <ul>
+                  {% for i in dis_med %}
+                    <li>{{ i }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Workouts</td>
+              <td>
+                <ul>
+                  {% for i in dis_wrkout %}
+                    <li>{{ i }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Diets</td>
+              <td>
+                <ul>
+                  {% for i in dis_die %}
+                    <li>{{ i }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("resultModal");
+
+      // Get the button that opens the modal
+      var btn = document.querySelector(".toggle-button");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

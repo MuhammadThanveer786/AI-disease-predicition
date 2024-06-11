@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Health Care Center</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #3f51b5;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-section {
+        margin-bottom: 40px;
+      }
+
+      .contact-section h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      .contact-section p {
+        line-height: 1.6;
+      }
+
+      .form-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .btn {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .btn:hover {
+        background-color: #303f9f;
+      }
+      .nav {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav a {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .nav a:hover {
+        background-color: #303f9f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header" style="margin-bottom:10px">
+      <div class="nav">
+        <a href="/">Home</a>
+        <a href="/diseases">Diseases</a>
+        <a href="/diets">Diets</a>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact Us</a>
+        <a href="/blog">Blog</a>
+      </div>
+    </div>
+    <div class="header">
+      Contact Us
+    </div>
+
+    <div class="container">
+      <div class="contact-section">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feedback, or inquiries, we would love to hear from you. Please fill out the form below, and we will get back to you as soon as possible.</p>
+      </div>
+
+      <div class="form-container">
+        <form action="/send_message" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
