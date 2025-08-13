@@ -17,7 +17,7 @@ This project also provides additional health-related resources such as diet plan
 
 ## 📂 Project Structure
 
-medicine-recommendation/
+```medicine-recommendation/
 ├── Datasets/
 │ ├── Symptom-severity.csv
 │ ├── symtoms_df.csv
@@ -37,7 +37,7 @@ medicine-recommendation/
 ├── main.py
 ├── requirements.txt
 └── .gitignore
-
+```
 ## 📊 Dataset Details
 This project uses multiple CSV datasets for prediction and recommendation:
 - **Symptom-severity.csv** → Severity score for each symptom.
@@ -59,6 +59,7 @@ The system is powered by multiple ML algorithms:
 - **Multinomial Naive Bayes**
 
 📌 Models are trained on curated symptom–disease datasets and saved as `.pkl` files for fast prediction.
+
 
 
 
