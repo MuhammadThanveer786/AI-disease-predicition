@@ -3,49 +3,138 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Medicine Recommendation System</title>
+    <title> RGUKT Health Companion </title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f9;
-        color: #333;
+      /* Basic Reset */
+      * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #e0eafc, #cfdef3);
+        min-height: 100vh;
+        color: #333;
       }
 
       .header {
-        background-color: #3f51b5;
+        background-color: #4a69bd;
         color: white;
         padding: 20px;
         text-align: center;
-        font-size: 24px;
+        font-size: 28px;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .header .title {
+        margin-right: auto;
+      }
+
+      .header .user-info {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .header .user-info a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.15);
+        transition: all 0.3s ease;
+      }
+
+      .header .user-info a:hover {
+        background-color: white;
+        color: #1e3799;
+      }
+
+      .header .logout {
+        background-color: #e74c3c;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+      }
+
+      .header .logout:hover {
+        background-color: #c0392b;
+      }
+
+      .nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color: #1e3799;
+        padding: 15px 0;
+        margin-top: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.15);
+        transition: all 0.3s ease;
+      }
+
+      .nav a:hover {
+        background-color: white;
+        color: #1e3799;
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
       }
 
       .container {
-        max-width: 800px;
+        max-width: 1300px;
         margin: 40px auto;
         padding: 20px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        animation: fadeIn 1s ease-in;
       }
 
-      .symptoms {
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .card {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        min-width: 320px;
+        max-width: 600px;
+        transition: transform 0.3s, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      h2 {
+        text-align: center;
         margin-bottom: 20px;
-      }
-
-      .symptom {
-        padding: 10px;
-        background-color: #e8eaf6;
-        border-radius: 4px;
-        margin-bottom: 10px;
-      }
-
-      .form-container {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #1e3799;
       }
 
       .form-group {
@@ -54,146 +143,120 @@
 
       .form-group label {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #4a69bd;
       }
 
       .form-group input {
         width: 100%;
-        padding: 10px;
+        padding: 12px;
+        font-size: 16px;
         border: 1px solid #ccc;
-        border-radius: 4px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+
+      .form-group input:focus {
+        outline: none;
+        border-color: #4a69bd;
+        box-shadow: 0 0 5px rgba(74, 105, 189, 0.5);
       }
 
       .btn {
-        background-color: #3f51b5;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
+        width: 100%;
+        padding: 14px;
         font-size: 16px;
+        font-weight: bold;
+        background-color: #4a69bd;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease;
       }
 
       .btn:hover {
-        background-color: #303f9f;
+        background-color: #1e3799;
+        transform: scale(1.05);
       }
 
-      .table {
+      table {
         width: 100%;
         border-collapse: collapse;
-        margin-top: 20px;
+        margin-top: 15px;
       }
 
-      .table th, .table td {
+      table th, table td {
         border: 1px solid #ddd;
-        padding: 8px;
+        padding: 12px;
         text-align: left;
+        font-size: 14px;
       }
 
-      .table th {
-        background-color: #3f51b5;
+      table th {
+        background-color: #4a69bd;
         color: white;
       }
 
-      .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.4);
+      table td ul {
+        margin-left: 15px;
       }
 
-      .modal-content {
-        background-color: white;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-        max-width: 600px;
-        border-radius: 8px;
-      }
-
-      .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-      }
-
-      .close:hover,
-      .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      .nav {
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-around;
-      }
-
-      .nav a {
-        background-color: #3f51b5;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 4px;
-        text-decoration: none;
-        font-size: 16px;
-      }
-
-      .nav a:hover {
-        background-color: #303f9f;
+      @media (max-width: 768px) {
+        .nav {
+          flex-direction: column;
+        }
+        .container {
+          flex-direction: column;
+          align-items: center;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="header" style="margin-bottom:10px">
-      <div class="nav">
-        <a href="/">Home</a>
-        <a href="/diseases">Diseases</a>
-        <a href="/diets">Diets</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/blog">Blog</a>
-      </div>
-    </div>
+    
     <div class="header">
-     Health Recommendation System
-    </div>
-    <div class="container">
-      <div class="symptoms">
-        <h2>Common Symptoms</h2>
-        <div class="symptom">
-          <strong>Disease:</strong> Impetigo<br>
-          <strong>Description:</strong> Impetigo is a highly contagious skin infection causing red sores that can break open.<br>
-          <strong>Precaution:</strong> Soak affected area in warm water, use antibiotics, remove scabs with wet compressed cloth, consult doctor.<br>
-          <strong>Medication:</strong> Topical antibiotics, oral antibiotics, antiseptics, warm compresses.<br>
-          <strong>Workout:</strong> Maintain good hygiene, stay hydrated, consume nutrient-rich foods, avoid scratching.<br>
-          <strong>Diet:</strong> Impetigo diet, antibiotic treatment, fruits and vegetables, hydration.
-        </div>
-        <!-- Add more symptom blocks as needed -->
+      <div class="title">
+        RGUKT Health Companion 
       </div>
+      <div class="user-info">
+        {% if session.username %}
+          <a href="#" style="pointer-events: none;">Welcome, {{ session.username }}</a>
+          <a href="{{ url_for('logout') }}" class="logout">Logout</a>
+        {% endif %}
+      </div>
+    </div>
 
-      <div class="form-container">
-        <h2>Find Your Symptoms</h2>
+    <div class="nav">
+      <a href="/index">Home</a>
+      <a href="/diseases">Diseases</a>
+      <a href="/diets">Diets</a>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/blog">Blog</a>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h2>Symptoms Experienced 🤒</h2>
         <form action="/predict" method="post">
           <div class="form-group">
-            <label for="symptoms">Type Symptoms</label>
-            <input type="text" id="symptoms" name="symptoms" placeholder="Use symptoms like itching, vomiting, coughing">
+            <label for="symptoms">
+              Type Symptoms: (Use underscores _ instead of spaces. Example: skin_rash, not skin rash)
+            </label>
+            <input type="text" id="symptoms" name="symptoms" placeholder="e.g. skin_rash,vomiting,itching..... ">
           </div>
           <button type="submit" class="btn">Get Recommendation</button>
+          <a href="{{ url_for('check_symptoms') }}" class="btn" style="margin-top: 15px; text-align: center; display: inline-block;">Check Symptom List</a>
         </form>
+        
       </div>
 
       {% if predicted_disease %}
-      <div class="result-container">
+      <div class="card">
         <h2>Our AI Doc Results</h2>
-        <table class="table">
+        <table>
           <thead>
             <tr>
               <th>Category</th>
@@ -255,32 +318,5 @@
       {% endif %}
     </div>
 
-    <script>
-      // Get the modal
-      var modal = document.getElementById("resultModal");
-
-      // Get the button that opens the modal
-      var btn = document.querySelector(".toggle-button");
-
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks the button, open the modal
-      btn.onclick = function() {
-        modal.style.display = "block";
-      }
-
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-        modal.style.display = "none";
-      }
-
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
-    </script>
   </body>
 </html>

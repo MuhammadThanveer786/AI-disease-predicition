@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Available Symptoms</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f4f6f9;
+    }
+
+    h2 {
+      text-align: center;
+      color: #4a69bd;
+    }
+
+    table {
+      width: 90%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 14px 20px;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+    }
+
+    th {
+      background-color: #4a69bd;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <h2>All Available Symptoms</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Symptom</th>
+        <th>Severity</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for symptom, severity in symptoms %}
+        <tr>
+          <td>{{ symptom }}</td>
+          <td>{{ severity }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

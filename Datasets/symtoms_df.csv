@@ -59,16 +59,16 @@
 57,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 58,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 59,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-60,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-61,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-62,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-63,AIDS, muscle_wasting, patches_in_throat, extra_marital_contacts,
-64,AIDS, muscle_wasting, patches_in_throat, high_fever,
-65,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-66,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-67,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-68,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-69,AIDS, muscle_wasting, patches_in_throat, high_fever,
+60,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+61,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+62,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+63,Malaria, muscle_wasting, patches_in_throat, extra_marital_contacts,
+64,Malaria, muscle_wasting, patches_in_throat, high_fever,
+65,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+66,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+67,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+68,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+69,Malaria, muscle_wasting, patches_in_throat, high_fever,
 70,Diabetes , fatigue, weight_loss, restlessness, lethargy
 71,Diabetes , fatigue, weight_loss, restlessness, lethargy
 72,Diabetes , weight_loss, restlessness, lethargy, irregular_sugar_level
@@ -469,16 +469,16 @@
 467,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 468,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 469,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-470,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-471,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-472,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-473,AIDS, muscle_wasting, patches_in_throat, extra_marital_contacts,
-474,AIDS, muscle_wasting, patches_in_throat, high_fever,
-475,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-476,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-477,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-478,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-479,AIDS, muscle_wasting, patches_in_throat, high_fever,
+470,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+471,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+472,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+473,Malaria, muscle_wasting, patches_in_throat, extra_marital_contacts,
+474,Malaria, muscle_wasting, patches_in_throat, high_fever,
+475,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+476,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+477,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+478,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+479,Malaria, muscle_wasting, patches_in_throat, high_fever,
 480,Diabetes , fatigue, weight_loss, restlessness, lethargy
 481,Diabetes , fatigue, weight_loss, restlessness, lethargy
 482,Diabetes , weight_loss, restlessness, lethargy, irregular_sugar_level
@@ -879,16 +879,16 @@
 877,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 878,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 879,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-880,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-881,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-882,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-883,AIDS, muscle_wasting, patches_in_throat, extra_marital_contacts,
-884,AIDS, muscle_wasting, patches_in_throat, high_fever,
-885,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-886,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-887,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-888,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-889,AIDS, muscle_wasting, patches_in_throat, high_fever,
+880,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+881,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+882,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+883,Malaria, muscle_wasting, patches_in_throat, extra_marital_contacts,
+884,Malaria, muscle_wasting, patches_in_throat, high_fever,
+885,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+886,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+887,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+888,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+889,Malaria, muscle_wasting, patches_in_throat, high_fever,
 890,Diabetes , fatigue, weight_loss, restlessness, lethargy
 891,Diabetes , fatigue, weight_loss, restlessness, lethargy
 892,Diabetes , weight_loss, restlessness, lethargy, irregular_sugar_level
@@ -1289,16 +1289,16 @@
 1287,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 1288,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 1289,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-1290,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-1291,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-1292,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-1293,AIDS, muscle_wasting, patches_in_throat, extra_marital_contacts,
-1294,AIDS, muscle_wasting, patches_in_throat, high_fever,
-1295,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-1296,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-1297,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-1298,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-1299,AIDS, muscle_wasting, patches_in_throat, high_fever,
+1290,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+1291,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+1292,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+1293,Malaria, muscle_wasting, patches_in_throat, extra_marital_contacts,
+1294,Malaria, muscle_wasting, patches_in_throat, high_fever,
+1295,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+1296,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+1297,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+1298,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+1299,Malaria, muscle_wasting, patches_in_throat, high_fever,
 1300,Diabetes , fatigue, weight_loss, restlessness, lethargy
 1301,Diabetes , fatigue, weight_loss, restlessness, lethargy
 1302,Diabetes , weight_loss, restlessness, lethargy, irregular_sugar_level
@@ -1699,16 +1699,16 @@
 1697,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 1698,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 1699,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-1700,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-1701,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-1702,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-1703,AIDS, muscle_wasting, patches_in_throat, extra_marital_contacts,
-1704,AIDS, muscle_wasting, patches_in_throat, high_fever,
-1705,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-1706,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-1707,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-1708,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-1709,AIDS, muscle_wasting, patches_in_throat, high_fever,
+1700,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+1701,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+1702,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+1703,Malaria, muscle_wasting, patches_in_throat, extra_marital_contacts,
+1704,Malaria, muscle_wasting, patches_in_throat, high_fever,
+1705,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+1706,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+1707,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+1708,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+1709,Malaria, muscle_wasting, patches_in_throat, high_fever,
 1710,Diabetes , fatigue, weight_loss, restlessness, lethargy
 1711,Diabetes , fatigue, weight_loss, restlessness, lethargy
 1712,Diabetes , weight_loss, restlessness, lethargy, irregular_sugar_level
@@ -2109,16 +2109,16 @@
 2107,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 2108,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
 2109,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2110,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-2111,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-2112,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-2113,AIDS, muscle_wasting, patches_in_throat, extra_marital_contacts,
-2114,AIDS, muscle_wasting, patches_in_throat, high_fever,
-2115,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-2116,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
-2117,AIDS, patches_in_throat, high_fever, extra_marital_contacts,
-2118,AIDS, muscle_wasting, high_fever, extra_marital_contacts,
-2119,AIDS, muscle_wasting, patches_in_throat, high_fever,
+2110,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2111,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+2112,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+2113,Malaria, muscle_wasting, patches_in_throat, extra_marital_contacts,
+2114,Malaria, muscle_wasting, patches_in_throat, high_fever,
+2115,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2116,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2117,Malaria, patches_in_throat, high_fever, extra_marital_contacts,
+2118,Malaria, muscle_wasting, high_fever, extra_marital_contacts,
+2119,Malaria, muscle_wasting, patches_in_throat, high_fever,
 2120,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2121,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2122,Diabetes , weight_loss, restlessness, lethargy, irregular_sugar_level
@@ -2465,7 +2465,7 @@
 2463,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2464,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2465,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2466,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2466,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2467,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2468,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2469,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2506,7 +2506,7 @@
 2504,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2505,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2506,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2507,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2507,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2508,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2509,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2510,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2547,7 +2547,7 @@
 2545,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2546,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2547,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2548,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2548,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2549,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2550,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2551,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2588,7 +2588,7 @@
 2586,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2587,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2588,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2589,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2589,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2590,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2591,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2592,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2629,7 +2629,7 @@
 2627,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2628,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2629,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2630,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2630,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2631,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2632,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2633,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2670,7 +2670,7 @@
 2668,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2669,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2670,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2671,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2671,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2672,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2673,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2674,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2711,7 +2711,7 @@
 2709,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2710,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2711,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2712,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2712,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2713,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2714,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2715,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2752,7 +2752,7 @@
 2750,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2751,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2752,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2753,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2753,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2754,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2755,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2756,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2793,7 +2793,7 @@
 2791,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2792,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2793,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2794,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2794,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2795,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2796,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2797,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2834,7 +2834,7 @@
 2832,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2833,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2834,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2835,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2835,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2836,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2837,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2838,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2875,7 +2875,7 @@
 2873,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2874,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2875,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2876,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2876,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2877,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2878,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2879,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2916,7 +2916,7 @@
 2914,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2915,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2916,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2917,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2917,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2918,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2919,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2920,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2957,7 +2957,7 @@
 2955,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2956,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2957,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2958,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2958,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 2959,Diabetes , fatigue, weight_loss, restlessness, lethargy
 2960,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 2961,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -2998,7 +2998,7 @@
 2996,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 2997,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 2998,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-2999,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+2999,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3000,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3001,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3002,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3039,7 +3039,7 @@
 3037,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3038,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3039,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3040,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3040,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3041,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3042,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3043,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3080,7 +3080,7 @@
 3078,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3079,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3080,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3081,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3081,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3082,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3083,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3084,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3121,7 +3121,7 @@
 3119,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3120,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3121,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3122,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3122,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3123,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3124,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3125,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3162,7 +3162,7 @@
 3160,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3161,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3162,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3163,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3163,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3164,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3165,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3166,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3203,7 +3203,7 @@
 3201,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3202,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3203,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3204,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3204,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3205,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3206,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3207,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3244,7 +3244,7 @@
 3242,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3243,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3244,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3245,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3245,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3246,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3247,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3248,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3285,7 +3285,7 @@
 3283,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3284,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3285,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3286,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3286,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3287,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3288,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3289,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3326,7 +3326,7 @@
 3324,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3325,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3326,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3327,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3327,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3328,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3329,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3330,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3367,7 +3367,7 @@
 3365,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3366,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3367,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3368,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3368,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3369,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3370,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3371,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3408,7 +3408,7 @@
 3406,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3407,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3408,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3409,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3409,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3410,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3411,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3412,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3449,7 +3449,7 @@
 3447,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3448,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3449,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3450,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3450,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3451,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3452,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3453,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3490,7 +3490,7 @@
 3488,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3489,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3490,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3491,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3491,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3492,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3493,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3494,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3531,7 +3531,7 @@
 3529,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3530,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3531,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3532,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3532,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3533,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3534,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3535,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3572,7 +3572,7 @@
 3570,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3571,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3572,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3573,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3573,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3574,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3575,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3576,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3613,7 +3613,7 @@
 3611,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3612,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3613,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3614,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3614,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3615,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3616,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3617,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3654,7 +3654,7 @@
 3652,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3653,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3654,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3655,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3655,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3656,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3657,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3658,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3695,7 +3695,7 @@
 3693,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3694,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3695,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3696,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3696,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3697,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3698,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3699,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3736,7 +3736,7 @@
 3734,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3735,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3736,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3737,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3737,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3738,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3739,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3740,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3777,7 +3777,7 @@
 3775,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3776,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3777,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3778,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3778,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3779,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3780,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3781,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3818,7 +3818,7 @@
 3816,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3817,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3818,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3819,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3819,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3820,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3821,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3822,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3859,7 +3859,7 @@
 3857,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3858,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3859,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3860,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3860,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3861,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3862,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3863,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3900,7 +3900,7 @@
 3898,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3899,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3900,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3901,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3901,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3902,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3903,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3904,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3941,7 +3941,7 @@
 3939,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3940,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3941,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3942,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3942,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3943,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3944,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3945,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -3982,7 +3982,7 @@
 3980,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 3981,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 3982,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-3983,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+3983,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 3984,Diabetes , fatigue, weight_loss, restlessness, lethargy
 3985,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 3986,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4023,7 +4023,7 @@
 4021,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4022,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4023,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4024,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4024,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4025,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4026,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4027,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4064,7 +4064,7 @@
 4062,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4063,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4064,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4065,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4065,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4066,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4067,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4068,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4105,7 +4105,7 @@
 4103,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4104,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4105,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4106,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4106,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4107,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4108,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4109,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4146,7 +4146,7 @@
 4144,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4145,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4146,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4147,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4147,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4148,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4149,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4150,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4187,7 +4187,7 @@
 4185,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4186,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4187,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4188,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4188,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4189,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4190,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4191,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4228,7 +4228,7 @@
 4226,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4227,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4228,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4229,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4229,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4230,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4231,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4232,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4269,7 +4269,7 @@
 4267,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4268,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4269,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4270,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4270,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4271,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4272,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4273,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4310,7 +4310,7 @@
 4308,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4309,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4310,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4311,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4311,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4312,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4313,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4314,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4351,7 +4351,7 @@
 4349,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4350,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4351,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4352,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4352,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4353,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4354,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4355,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4392,7 +4392,7 @@
 4390,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4391,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4392,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4393,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4393,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4394,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4395,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4396,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4433,7 +4433,7 @@
 4431,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4432,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4433,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4434,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4434,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4435,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4436,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4437,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4474,7 +4474,7 @@
 4472,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4473,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4474,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4475,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4475,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4476,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4477,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4478,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4515,7 +4515,7 @@
 4513,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4514,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4515,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4516,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4516,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4517,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4518,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4519,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4556,7 +4556,7 @@
 4554,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4555,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4556,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4557,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4557,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4558,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4559,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4560,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4597,7 +4597,7 @@
 4595,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4596,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4597,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4598,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4598,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4599,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4600,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4601,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4638,7 +4638,7 @@
 4636,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4637,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4638,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4639,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4639,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4640,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4641,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4642,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4679,7 +4679,7 @@
 4677,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4678,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4679,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4680,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4680,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4681,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4682,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4683,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4720,7 +4720,7 @@
 4718,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4719,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4720,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4721,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4721,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4722,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4723,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4724,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4761,7 +4761,7 @@
 4759,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4760,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4761,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4762,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4762,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4763,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4764,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4765,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4802,7 +4802,7 @@
 4800,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4801,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4802,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4803,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4803,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4804,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4805,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4806,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4843,7 +4843,7 @@
 4841,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4842,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4843,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4844,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4844,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4845,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4846,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4847,Bronchial Asthma, fatigue, cough, high_fever, breathlessness
@@ -4884,7 +4884,7 @@
 4882,Chronic cholestasis,itching, vomiting, yellowish_skin, nausea
 4883,Drug Reaction,itching, skin_rash, stomach_pain, burning_micturition
 4884,Peptic ulcer diseae, vomiting, indigestion, loss_of_appetite, abdominal_pain
-4885,AIDS, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
+4885,Malaria, muscle_wasting, patches_in_throat, high_fever, extra_marital_contacts
 4886,Diabetes , fatigue, weight_loss, restlessness, lethargy
 4887,Gastroenteritis, vomiting, sunken_eyes, dehydration, diarrhoea
 4888,Bronchial Asthma, fatigue, cough, high_fever, breathlessness

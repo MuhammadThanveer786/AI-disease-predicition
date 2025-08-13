@@ -3,81 +3,186 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Health Care Center Blog</title>
+    <title>RGUKT Health Companion</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f9;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f4f8;
         color: #333;
         margin: 0;
         padding: 0;
       }
 
       .header {
-        background-color: #3f51b5;
+        background: linear-gradient(135deg, #3f51b5, #1e3799);
         color: white;
         padding: 20px;
         text-align: center;
-        font-size: 24px;
-      }
-
-      .container {
-        max-width: 1000px;
-        margin: 40px auto;
-        padding: 20px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-
-      .blog-post {
-        margin-bottom: 40px;
-      }
-
-      .blog-post h2 {
         font-size: 28px;
-        margin-bottom: 10px;
+        font-weight: bold;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
       }
 
-      .blog-post p {
-        line-height: 1.6;
+      .header .user-info {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        font-size: 16px;
       }
+
+      .header .user-info a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        background-color: red;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+      }
+
+      .header .user-info a:hover {
+        background-color: #1e3799;
+      }
+
       .nav {
         margin-top: 20px;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 20px;
+        background-color: rgba(0, 0, 0, 0.1);
+        padding: 12px 0;
       }
 
       .nav a {
         background-color: #3f51b5;
         color: white;
         padding: 10px 20px;
-        border-radius: 4px;
+        border-radius: 25px;
         text-decoration: none;
         font-size: 16px;
+        transition: background-color 0.3s, transform 0.3s;
       }
 
       .nav a:hover {
-        background-color: #303f9f;
+        background-color: #1e3799;
+        transform: scale(1.05);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 1s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .blog-post {
+        margin-bottom: 40px;
+        padding: 15px;
+        background: linear-gradient(135deg, #e8eaf6 0%, #e8eaf6 100%);
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+      }
+
+      .blog-post:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .blog-post h2 {
+        color: #1e3799;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .blog-post p {
+        color: #1e3799;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .modal-content {
+        background-color: white;
+        margin: 10% auto;
+        padding: 30px;
+        width: 80%;
+        max-width: 700px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.3s ease-in;
+      }
+
+      .close {
+        color: #3f51b5;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: color 0.3s ease;
+      }
+
+      .close:hover {
+        color: #1e3799;
+      }
+
+      @media (max-width: 768px) {
+        .nav {
+          flex-direction: column;
+          gap: 10px;
+        }
+        .container {
+          padding: 10px;
+        }
+        .modal-content {
+          margin: 15% auto;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="header" style="margin-bottom:10px">
-      <div class="nav">
-        <a href="/">Home</a>
-        <a href="/diseases">Diseases</a>
-        <a href="/diets">Diets</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/blog">Blog</a>
-      </div>
-    </div>
     <div class="header">
-      Health Care Center Blog
+      RGUKT Health Companion
+      {% if session.username %}
+        <div class="user-info">
+          <span>Welcome, {{ session.username }}</span>
+          <a href="{{ url_for('logout') }}">Logout</a>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="nav">
+      <a href="/index">Home</a>
+      <a href="/diseases">Diseases</a>
+      <a href="/diets">Diets</a>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/blog">Blog</a>
     </div>
 
     <div class="container">
+      <h2>Health Care Center Blog</h2>
       <div class="blog-post">
         <h2>Welcome to Our Health Blog</h2>
         <p>At the Health Care Center, we are dedicated to providing you with the latest information on health and wellness. Our blog covers a wide range of topics including disease prevention, healthy eating, fitness tips, and more. Stay tuned for expert advice and insights to help you lead a healthier life.</p>
@@ -98,5 +203,25 @@
         <p>Staying active is essential for overall well-being. Whether you are a fitness enthusiast or just getting started, our fitness tips are designed to help you find an exercise routine that works for you. From simple home workouts to advanced training techniques, we have something for everyone.</p>
       </div>
     </div>
+
+    <div class="modal" id="resultModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">×</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script>
+      function closeModal() {
+        document.getElementById('resultModal').style.display = 'none';
+      }
+
+      window.onclick = function(event) {
+        const modal = document.getElementById('resultModal');
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      };
+    </script>
   </body>
 </html>
