@@ -4,6 +4,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import numpy as np
 import pandas as pd
 import pickle
+import os
+from dotenv import load_dotenv
 
 # Load datasets
 precautions = pd.read_csv('Datasets/precautions_df.csv')
@@ -15,22 +17,37 @@ diets = pd.read_csv('Datasets/diets.csv')
 # Load model
 svc = pickle.load(open("Models/svc.pkl", 'rb'))
 
+load_dotenv()
+
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "your_secret_key"
-app.config["MONGO_URI"] = "mongodb://localhost:27017/healthcare"
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
+app.config["MONGO_URI"] = os.getenv("MONGO_URI")
 mongo = PyMongo(app)
 
 # Helper function
 def helper(dis):
-    desc = description[description['Disease'] == dis]['Description'].values[0]
+    desc = description[description['Disease'] == dis]['Description'].iloc[0]
 
-    pre = precautions[precautions['Disease'] == dis][['Precaution_1', 'Precaution_2', 'Precaution_3', 'Precaution_4']].values.flatten().tolist()
+    pre = precautions[
+        precautions['Disease'] == dis
+    ][[
+        'Precaution_1',
+        'Precaution_2',
+        'Precaution_3',
+        'Precaution_4'
+    ]].to_numpy().flatten().tolist()
 
-    med = medications[medications['Disease'] == dis]['Medication'].values.flatten().tolist()
+    med = medications[
+        medications['Disease'] == dis
+    ]['Medication'].to_numpy().flatten().tolist()
 
-    die = diets[diets['Disease'] == dis]['Diet'].values.flatten().tolist()
+    die = diets[
+        diets['Disease'] == dis
+    ]['Diet'].to_numpy().flatten().tolist()
 
-    wrkout = workout[workout['disease'] == dis]['workout'].values.flatten().tolist()
+    wrkout = workout[
+        workout['disease'] == dis
+    ]['workout'].to_numpy().flatten().tolist()
 
     return desc, pre, med, die, wrkout
 
@@ -125,14 +142,35 @@ def developer():
 @app.route('/diseases')
 def diseases():
     diseases = {}
+
     for disease in description['Disease'].unique():
         diseases[disease] = {
-            'description': description[description['Disease'] == disease]['Description'].values[0],
-            'precaution': precautions[precautions['Disease'] == disease][['Precaution_1', 'Precaution_2', 'Precaution_3', 'Precaution_4']].values.flatten().tolist(),
-            'medication': medications[medications['Disease'] == disease]['Medication'].values.flatten().tolist(),
-            'diet': diets[diets['Disease'] == disease]['Diet'].values.flatten().tolist(),
-            'workout': workout[workout['disease'] == disease]['workout'].values.flatten().tolist()
+            'description': description[
+                description['Disease'] == disease
+            ]['Description'].iloc[0],
+
+            'precaution': precautions[
+                precautions['Disease'] == disease
+            ][[
+                'Precaution_1',
+                'Precaution_2',
+                'Precaution_3',
+                'Precaution_4'
+            ]].to_numpy().flatten().tolist(),
+
+            'medication': medications[
+                medications['Disease'] == disease
+            ]['Medication'].to_numpy().flatten().tolist(),
+
+            'diet': diets[
+                diets['Disease'] == disease
+            ]['Diet'].to_numpy().flatten().tolist(),
+
+            'workout': workout[
+                workout['disease'] == disease
+            ]['workout'].to_numpy().flatten().tolist()
         }
+
     return render_template('diseases.html', diseases=diseases)
 
 @app.route('/diets')
@@ -166,4 +204,4 @@ def predict():
 
 # Run server
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
